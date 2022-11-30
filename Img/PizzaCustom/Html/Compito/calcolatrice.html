@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calcolatrice magica!!!</title>
+    <link rel="stylesheet" href="calcolatrice.css">
+</head>
+<body>
+    <center>
+        <h1>Calcolatrice magica!!!</h1>
+    </center>
+    <br>
+
+    <div class="Box">
+    <p> <b>Numero 1: </b><input id="n1" type="text" /></p>
+    <br>
+    <p><b>Numero 2: </b><input id="n2" type="text" /></p>
+    <br>
+    <br>
+    <p><b>Risultato: </b><input type="text" id="ris"></p>
+    </div>
+
+    <div class="box2">
+    <button onclick="add()">+</button>
+    <button onclick="sot()">-</button>
+    <button onclick="molt()">*</button>
+    <button onclick="div()">/</button>
+    </div>
+
+    <script>
+        function add() {
+            var n1 = document.getElementById("n1").value;
+            var n2 = document.getElementById("n2").value;
+            var add = Number(n1) + Number(n2);
+            document.getElementById("ris").value = add;
+        }
+
+        function sot() {
+            var n1 = document.getElementById("n1").value;
+            var n2 = document.getElementById("n2").value;
+            var sot = n1 - n2;
+            document.getElementById("ris").value = sot;
+        }
+
+        function molt() {
+            var n1 = document.getElementById("n1").value;
+            var n2 = document.getElementById("n2").value;
+            var molt = n1 * n2;
+            document.getElementById("ris").value = molt;
+        }
+
+        function div() {
+            var n1 = document.getElementById("n1").value;
+            var n2 = document.getElementById("n2").value;
+            var div = n1 / n2;
+            document.getElementById("ris").value = div;
+        }
+    </script>
+</body>
+</html>

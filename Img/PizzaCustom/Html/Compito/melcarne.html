@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <title>Document</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+    <!---->
+
+    <!-- <p>TESTO PRESO DA HTML</p>
+
+        <p id="contenuto"></p>
+
+        <script>
+
+            document.getElementById("contenuto").innerHTML="Questo è Javascript"
+
+        </script>-->
+
+    <h2>Area del quadrilatero</h2>
+
+    <p>Dimensione del lato <input id="lat" type="text" /></p>
+
+    <p>Dimensione dell'altezza <input id="alt" type="text" /></p>
+
+    <p style="color:red">Dimensione dell'area <input id="are" type="text" />
+
+    <button onclick="area()">Calcola</button>
+
+    <button onclick="cancella()">Reset</button>
+    </p>
+
+    <script>
+        function area() {
+            var lat = document.getElementById("lat").value;
+            var alt = document.getElementById("alt").value;
+            var are = lat * alt;
+            document.getElementById("are").value = are;
+
+        }
+        function cancella(){
+            document.getElementById("lat").value=' '
+            document.getElementById("alt").value=' '
+            document.getElementById("are").value=' '   
+        }
+    </script>
+</body>
+

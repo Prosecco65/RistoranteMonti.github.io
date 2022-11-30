@@ -1,0 +1,31 @@
+{
+    "studente":
+    {
+        "cognome":"mouzone",
+        "nome":"pennati",
+        "età":66,
+        "classe":"5ib",
+        "Materie":["Matteo" , "sistemi", "tps"],
+        "url":[
+            {
+                "Descrizione": "Mail",
+                "Link": "https://www.istitutogreppi.edu.it/"
+            },
+            {
+                "Descrizione": "Google",
+                "Link": "https://www.google.it/"
+            },
+            {
+                "vero?":true
+            }
+        ]
+    },
+    "studente2":
+    {
+        "cognome":"uga uga",
+        "nome":"pietro",
+        "età":37,
+        "classe":"2ib",
+        "Materie":["Matteo" , "sistemi", "tps"]
+    }
+}

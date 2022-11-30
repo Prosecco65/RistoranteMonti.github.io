@@ -1,0 +1,27 @@
+.Box{
+    position: relative;
+    left: 50px;
+}
+
+body{
+    background-color:lightgoldenrodyellow;
+}
+ 
+button{
+    display: flex;
+    padding: 20px;
+    position:relative;
+    left: 1000px;
+    top: -210px;
+}
+
+h1, p{
+    font-family:Verdana;
+
+}
+
+@media screen and (max-width: 900px) {
+    .container {
+        flex-direction: column;
+    }
+}

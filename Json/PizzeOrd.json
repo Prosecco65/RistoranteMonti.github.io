@@ -1,0 +1,158 @@
+[
+      {
+        "pizza": "Marinara",
+        "descrizione": "pomodoro, aglio, origano",
+        "prezzo": "4.00",
+        "img":"https://primabergamo.it/media/2015/08/marinara.jpg"
+      },
+      {
+        "pizza": "Margherita",
+        "descrizione": "pomodoro, mozzarella",
+        "prezzo": "5.00",
+        "img": "https://www.finedininglovers.it/sites/g/files/xknfdk1106/files/styles/recipes_1200_800_fallback/public/fdl_content_import_it/margherita-50kalo.jpg?itok=v9nHxNMS"
+      },
+      {
+        "pizza": "Siciliana",
+        "descrizione": "pomodoro, mozzarella, capperi, acciughe, olive, origano",
+        "prezzo": "7.00",
+        "img": "https://www.eolieshop.it/wp-content/uploads/2020/05/pizza-con-capperi.jpg"
+      },
+      {
+        "pizza": "Pugliese",
+        "descrizione": "pomodoro, cipolla, grana",
+        "prezzo": "5.00",
+        "img": "https://www.lospicchiodaglio.it/img/ricette/pizza-cipolle.jpg"
+      },
+      {
+        "pizza": "Calzone",
+        "descrizione": "pomodoro, mozzarella, prosciutto cotto",
+        "prezzo": "5.00",
+        "img": "https://media-assets.lacucinaitaliana.it/photos/61fd2245802734d1e3672331/16:9/w_1280,c_limit/Calzone-dellortolano.jpg"
+      },
+      {
+        "pizza": "Napoli",
+        "descrizione": "pomodoro, mozzarella, acciughe, origano",
+        "prezzo": "5.00",
+        "img": "https://ilbottaccio.com/web2/wp-content/uploads/2018/04/pizza-marinara-e-olio-allaglio.jpg"
+      },
+      {
+        "pizza": "Romana",
+        "descrizione": "pomodoro, mozzarella, acciughe, capperi, origano",
+        "prezzo": "7.00",
+        "img": "https://www.petitchef.it/imgupl/recipe/pizza-napoletana-acciughe-e-capperi--457933p714661.jpg"
+      },
+      {
+        "pizza": "Saracena",
+        "descrizione": "pomodoro fresco, mozzarella, origano",
+        "prezzo": "4.50",
+        "img": "https://media-cdn.tripadvisor.com/media/photo-s/0a/c9/2a/0c/pizza-saracena.jpg"
+      },
+      {
+        "pizza": "Capricciosa",
+        "descrizione": "pomodoro, mozzarella, funghi, prosciutto cotto, carciofi, olive",
+        "prezzo": "6.00",
+        "img": "https://www.italianstylecooking.net/wp-content/uploads/2022/01/Pizza-capricciosa.jpg"
+      },
+      {
+        "pizza": "Calzone farcito",
+        "descrizione": "pomodoro, mozzarella, prosciutto cotto, funghi, carciofi",
+        "prezzo": "6.50",
+        "img": "https://www.greenparkristorante.com/wp-content/uploads/2017/04/calzone-farcito-600x598.jpg"
+      },
+      {
+        "pizza": "Contadina",
+        "descrizione": "pomodoro, mozzarella, peperoni, salame piccante, olive",
+        "prezzo": "7.00",
+        "img": "https://www.ristorantepizzeriajanna.com/wp-content/uploads/2015/10/pizza-contadina-brescia_opt.jpg"
+      },
+      {
+        "pizza": "Delizia",
+        "descrizione": "pomodoro, mozzarella di bufala, patate, würstel",
+        "prezzo": "7.00",
+        "img": "https://blog.giallozafferano.it/golosamentemilena/wp-content/uploads/2017/07/pizza-wurstel-e-patatine.jpg"
+      },
+      {
+        "pizza": "Delicata",
+        "descrizione": "pomodoro, mozzarella, bresaola, rucola, grana a scaglie",
+        "prezzo": "7.50",
+        "img": "https://www.silviocicchi.com/pizzachef/wp-content/uploads/2015/08/bresaola1.jpg"
+      },
+      {
+        "pizza": "Frutti di mare",
+        "descrizione": "pomodoro, misto mare",
+        "prezzo": "7.50",
+        "img": "https://www.petitchef.it/imgupl/recipe/pizza-ai-frutti-di-mare--455626p707845.jpg"
+      },
+      {
+        "pizza": "Tonno e cipolla",
+        "descrizione": "pomodoro, mozzarella, tonno, cipolla",
+        "prezzo": "6.00",
+        "img": "https://blog.giallozafferano.it/cucinoperpassione/wp-content/uploads/2019/09/Pizza-rossa-tonno-e-cipolla.jpg"
+      },
+      {
+        "pizza": "Bresaola",
+        "descrizione": "pomodoro, mozzarella, bresaola",
+        "prezzo": "6.00",
+        "img": "https://www.isitsalumi.it/wp-content/uploads/2021/01/07_BRASAOLA_FIN.jpg"
+      },
+      {
+        "pizza": "Estiva",
+        "descrizione": "pomodoro fresco, mozzarella, capperi, tonno",
+        "prezzo": "6.50",
+        "img": "https://www.silviocicchi.com/pizzachef/wp-content/uploads/2015/03/t1.jpg"
+      },
+      {
+        "pizza": "Bufala",
+        "descrizione": "pomodoro, mozzarella di bufala",
+        "prezzo": "5.00",
+        "img": "data:image/jpeg;base64,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"
+      },
+      {
+        "pizza": "Porcini",
+        "descrizione": "pomodoro, mozzarella, porcini",
+        "prezzo": "5.50",
+        "img": "https://www.lospicchiodaglio.it/img/ricette/pizzaporcini.jpg"
+      },
+      {
+        "pizza": "Texana",
+        "descrizione": "pomodoro, mozzarella, fagioli, cipolla",
+        "prezzo": "7.00",
+        "img": "https://www.dolcidee.it/media/uploads/recipe/5faa87659bc93_tmp5947ef271b094db6a7993c4c7e80485a.jpg"
+      },
+      {
+        "pizza": "Diavola",
+        "descrizione": "pomodoro, mozzarella, salame piccante",
+        "prezzo": "6.50",
+        "img": "https://www.iffco.it/sites/default/files/styles/free_crop/public/img/recipe/gran-cucina-pizza-diavola.jpg?h=de92a0b7&itok=eC0EvTVI"
+      },
+      {
+        "pizza": "Stracchino e rucola",
+        "descrizione": "pomodoro, stracchiono, rucola",
+        "prezzo": "6.00",
+        "img": "https://www.silviocicchi.com/pizzachef/wp-content/uploads/2015/04/rucola-stracchino-pizza-ev-600x372.jpg"
+      },
+      {
+        "pizza": "Tirolese",
+        "descrizione": "pomodoro, mozzarella, speck, rucola",
+        "prezzo": "5.00",
+        "img": "https://recipesblob.oetker.com/files/63ec2e520d534306a214ee9c0f2cfbba/017a407e4bde4043a4dce5f6536e7051/1272x764/pizza-allo-speckjpg.jpg"
+      },
+      {
+        "pizza": "Vegetariana",
+        "descrizione": "pomodoro, mozzarella, verdure miste",
+        "prezzo": "6.00",
+        "img": "https://www.fruttaweb.com/consigli/wp-content/uploads/2018/06/pizza-vegana.jpg"
+      },
+      {
+        "pizza": "Gamberetti e rucola",
+        "descrizione": "pomodoro, gamberetti, rucola",
+        "prezzo": "5.00",
+        "img": "https://www.donnamoderna.com/content/uploads/2004/10/pizza-crescenza-rucola-e-gamberetti-725x545.jpg"
+      },
+      {
+        "pizza": "4 formaggi",
+        "descrizione": "pomodoro, mozzarella, edammer, formaggio misto, grana",
+        "prezzo": "4.50",
+        "img": "https://upload.wikimedia.org/wikipedia/commons/a/ad/Pizza_quattro_formaggi_at_restaurant%2C_Chalk_Farm_Road%2C_London.jpg"
+      }
+]

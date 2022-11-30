@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ristorante Monti-Home</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" href="./Css/css.css">
+</head>
+
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-xl bg-dark navbar-dark fixed-top">
+    <div class="container-fluid">
+      <img src="./Img/icona.png" alt="Logo Ristorante">
+      <a class="navbar-brand" href="/Index.html">RISTORANTE MONTI</a>
+      <button class="navbar-toggler collapsed d-flex d-lg-none flex-column justify-content-around" type="button"
+        data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+        <span class="toggler-icon top-bar"></span>
+        <span class="toggler-icon middle-bar"></span>
+        <span class="toggler-icon bottom-bar"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="collapsibleNavbar">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="/ChiSiamo.html">Chi Siamo?</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/Contatti.html">Contatti</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Menù</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="/PizzeOrdinarie.html">Pizze Ordinarie</a></li>
+              <li><a class="dropdown-item" href="/PizzaSpeciali.html">Pizze Speciali</a></li>
+              <li><a class="dropdown-item" href="/PizzeCustom.html">Pizze Custom</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Carousel -->
+
+  <div id="demo" class="carousel slide mb-5" data-bs-ride="carousel">
+
+    <!-- Foto -->
+    <div class="carousel-inner d-flex img-fluid">
+      <div class="carousel-item active">
+        <img src="./Img/Carosello/car1.jpg" alt="Pizza Margherita" class="d-block w-100 border border-dark rounded">
+      </div>
+      <div class="carousel-item">
+        <img src="./Img/Carosello/car2.jpg" alt="Forno" class="d-block w-100 border border-dark rounded">
+      </div>
+      <div class="carousel-item">
+        <img src="./Img/Carosello/car3.jpg" alt="Pizzaiolo" style="height:427px;"
+          class="d-block w-100 border border-dark rounded">
+      </div>
+    </div>
+
+    <!-- Freccie -->
+    <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon"> </span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+      <span class="carousel-control-next-icon"> </span>
+    </button>
+  </div>
+  <hr>
+  <div class="row mt-5">
+
+    <!-- Card 1 -->
+    <div class="card container" style="width:300px; background-color:#F1A661;">
+      <img class="card-img-top rounded" src="./Img/Card/card1.jpg" alt="Card1" style="width: 100%;">
+      <div class="card-body text-center">
+        <h4 class="card-title">Menù ordinario</h4>
+        <p class="card-text">Le pizze migliori si trovano solo nella Ristorante Monti, clicca qui sotto per vedere le
+          pizze più buone che mangerai.</p>
+        <a href="/PizzeOrdinarie.html" class="btn btn-dark">Clicca qui</a>
+      </div>
+    </div>
+
+    <!-- Card 2 -->
+    <div class="card container" style="width:300px; background-color:#F1A661;">
+      <img class="card-img-top rounded" src="./Img/Card/card2.jpg" alt="Card2" style="width: 100%;">
+      <div class="card-body text-center">
+        <h4 class="card-title">Menù speciale</h4>
+        <p class="card-text">Il menù delle pizze speciali contiene le pizze più buone create appositamente dal nostro
+          chef stellato.
+          <br> Clicca il pulsante qui sotto per scoprire la pizza kiwi e altre delizie.
+        </p>
+        <a href="/PizzaSpeciali.html" class="btn btn-dark">Clicca qui</a>
+      </div>
+    </div>
+
+    <!-- Card 3 -->
+    <div class="card container" style="width:300px; background-color:#F1A661;">
+      <img class="card-img-top rounded" src="./Img/Card/card3.jpg" alt="Card3" style="width: 100%;">
+      <div class="card-body text-center">
+        <h4 class="card-title">Menù custom</h4>
+        <p class="card-text">Crea la tua pizza custom! <br> Scegli gli ingredienti e crea la pizza che vuoi!</p>
+        <a href="PizzeCustom.html" class="btn btn-dark">Clicca qui</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Tabella -->
+  <div class="container-fluid text-center mt-5">
+    <h2>Orari</h2>
+    <br>
+    <table class="centerTable mt-1">
+      <tr>
+        <th colspan="2">Lunedì</th>
+      </tr>
+      <tr>
+        <td class="tabellaOrari">10:00 - 14:00 &nbsp;</td>
+        <td class="tabellaOrari">18:00 - 23:00</td>
+      </tr>
+      <tr>
+        <th colspan="2">Martedì</th>
+      </tr>
+      <tr>
+        <td class="tabellaOrari">Chiusura</td>
+        <td class="tabellaOrari">18:00 - 23:00</td>
+      </tr>
+      <tr>
+        <th colspan="2">Mercoledì</th>
+      </tr>
+      <tr>
+        <td class="tabellaOrari" colspan="2">Chiusura</td>
+      </tr>
+      <tr>
+        <th colspan="2">Giovedì</th>
+      </tr>
+      <tr>
+        <td class="tabellaOrari">10:00 - 14:00 &nbsp;</td>
+        <td class="tabellaOrari">18:00 - 23:00</td>
+      </tr>
+      <tr>
+        <th colspan="2">Venerdì</th>
+      </tr>
+      <tr>
+        <td class="tabellaOrari">10:00 - 14:00 &nbsp;</td>
+        <td class="tabellaOrari">18:00 - 23:00</td>
+      </tr>
+      <tr>
+        <th colspan="2">Sabato</th>
+      </tr>
+      <tr>
+        <td class="tabellaOrari">10:00 - 15:00 &nbsp;</td>
+        <td class="tabellaOrari">18:00 - 00:00</td>
+      </tr>
+      <tr>
+        <th colspan="2">Domenica</th>
+      </tr>
+      <tr>
+        <td class="tabellaOrari">10:00 - 15:00 &nbsp;</td>
+        <td class="tabellaOrari">18:00 - 00:00</td>
+      </tr>
+    </table>
+    <br>
+  </div>
+
+  <!-- Footer -->
+  <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 border-top ">
+    <div class="col-md-4 d-flex align-items-center">
+      <img class="ms-3 mb-3 mb-md-0 text-muted" src="./Img/icona.png" alt="Logo" style="width: 45px;">
+      <span class="ms-4 mb-3 mb-md-0 text-muted">Ristorante Monti© 2022 Company, Inc</span>
+    </div>
+
+    <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+      <li class="ms-3"><a href="https://it-it.facebook.com/" target="_blank"> <img src="./Img/Social/Facebook.png"
+            alt="FacebookLogo"> </a></li>
+      <li class="ms-3"><a href="https://www.instagram.com/" target="_blank"><img src="./Img/Social/Instagram.png"
+            alt="InstagramLogo"></a></li>
+      <li class="ms-3"><a href="https://twitter.com/" target="_blank"><img src="./Img/Social/Twitter.png"
+            alt="TwitterLogo"></a></li>
+    </ul>
+  </footer>
+</body>
+
+</html>

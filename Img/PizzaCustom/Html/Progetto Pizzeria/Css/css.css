@@ -1,0 +1,310 @@
+.navbar-text{
+    color: white;
+    text-align: center;
+}
+
+.Invisibile{
+    display: none ;
+}
+
+body{
+    background-color: #FFFBC1;
+    /* PER IMMAGINI COME SFONDO:
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    */
+    overflow-x: hidden;
+}
+
+.tabellaOrari{
+    border-bottom: 1px solid black;
+}
+
+.centerTable { margin: 0px auto; }
+
+.carousel {
+    width:640px;
+    display:block;
+    margin:auto;
+    margin-top: 120px;
+}
+
+.centraelementi{
+    width:640px;
+    display:block;
+    margin:auto;
+    margin-top: 120px;
+}
+
+.box1{
+    width: 40%;
+    background-color:#F1A661;
+    padding: 20px;
+    margin: 50px auto 0px auto;
+    border-radius: 2%;
+    
+}
+
+.box2{
+    width: 25%;
+    background-color:#F1A661;
+    padding: 20px;
+    margin: 50px;
+    border-radius: 2%; 
+}
+
+.BottoneForm{
+    border-radius: 4px;
+    background-color: #F1A661;
+    border: none;
+}
+
+.wrapO { display:flex;align-items:center}
+
+.testimonials{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.testimonials-heading{
+    letter-spacing: 1px;
+    margin: 30px 0px;
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.testimonials-box-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.testimonials-box{
+    width: 500px;
+    box-shadow: 2px 2px 30px rgb(0, 0, 0, 0.1);
+    background-color:#F1A661 ;
+    padding: 20px;
+    margin: 15px;
+    cursor: pointer;
+}
+
+.Pizza{
+    grid-row: 1;
+    grid-column: 1;
+
+    /*Animazioni pizza che ruota (non funziona)!!!*/
+    
+    /* -webkit-animation: spin 10s linear infinite ;
+    -moz-animation: spin 10s linear infinite;
+    animation: spin 10s linear infinite; */
+}
+
+/*Animazioni pizza che ruota (non funziona)!!!*/
+
+/* @-webkit-keyframes spin{
+    100%{-webkit-transform: rotate(360deg);}
+}
+@-moz-keyframes spin{
+    100%{-webkit-transform: rotate(360deg);}
+}
+@keyframes spin{
+    100%{-webkit-transform: rotate(360deg);}
+} */
+
+.Olive{
+    width: 60%;
+    padding: 90px;
+    grid-row: 1;
+    grid-column: 1;
+}
+
+.Salame{
+    width: 50%;
+    /* position: relative;
+    bottom: 440px;
+    left: 10px; */
+    grid-row: 1;
+    grid-column: 1;
+}
+
+.Provola{
+    width: 65%;
+    padding: 90px;
+    grid-row: 1;
+    grid-column: 1;
+}
+
+.Patatine{
+    width: 60%;
+    padding: 90px;
+    grid-row: 1;
+    grid-column: 1;
+}
+
+.Basilico{
+    width: 62%;
+    padding: 90px;
+    grid-row: 1;
+    grid-column: 1;
+}
+
+.immagineProfilo{
+    width: 50px;
+    height: 50px;
+    border-radius:50%;
+    overflow: hidden;
+    margin-right: 10px;
+}
+
+.immagineProfilo img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.profile{
+    display: flex;
+    align-items: center;    
+}
+
+.name-user{
+    display:flex;
+    flex-direction: column;
+}
+
+.box-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.testimonials-box:hover{
+    transform: translateY(-10px);
+    transform: all ease 0.3s;
+}
+
+/*Modellamento toggler inizio*/
+.navbar-toggler{
+  width: 20px;
+  height: 20px;  
+  position: relative;
+  transition: .5s ease-in-out;
+}
+
+.navbar-toggler,
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    outline: none;
+    box-shadow: none;
+    border: 0;
+}
+
+.toggler-icon{
+    display: block;
+    position: absolute;
+    height: 3px;
+    width: 100%;
+    background:rgb(201, 31, 31) ;
+    left: 0;
+    opacity: 1;
+    border-radius: 1px;
+    transform: rotate(0deg);
+    transition: .25s ease-in-out;
+}
+
+.middle-bar{
+    margin-top: 0px;
+}
+/*Modellamento toggler fine*/
+
+/*Animzioni inizio*/
+
+.navbar-toggler .top-bar{
+    margin-top: 0px;
+    transform: rotate(135deg);
+}
+
+.navbar-toggler .middle-bar{
+    opacity: 0;
+    filter: alpha(opacity=0);
+}
+
+.navbar-toggler .bottom-bar{
+    margin-top: 0px;
+    transform: rotate(-135deg);
+}
+
+.navbar-toggler.collapsed .top-bar{
+    margin-top: -20px ;
+    transform: rotate(0deg);
+}
+
+.navbar-toggler.collapsed .middle-bar{
+    opacity: 1;
+    filter: alpha(opacity=100);
+}
+
+.navbar-toggler.collapsed .bottom-bar{
+    margin-top: 20px;
+    transform: rotate(0deg);
+}
+
+.navbar-toggler.collapsed .toggler-icon{
+    background: white;
+}
+/*Animzioni fine*/
+
+
+.flip-card {
+    background-color: transparent;
+    width: 300px;
+    height: 300px;
+    perspective: 1000px;
+  }
+  
+  .flip-card-inner {
+    
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  }
+  
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+  
+  .flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+  }
+  
+  .flip-card-front {
+    background-color: #bbb;
+    color: black;
+  }
+  
+  .flip-card-back {
+    background-color: #86c7e7;
+    color: rgb(0, 0, 0);
+    transform: rotateY(180deg);
+  }
+
+

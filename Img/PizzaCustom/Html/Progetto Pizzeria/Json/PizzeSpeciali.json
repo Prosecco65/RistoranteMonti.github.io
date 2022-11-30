@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "name":"Pizza Kiwi",
+        "ingredienti":["Mozzarella","Pomodoro","Kiwi"],
+        "descrizione":"Semplice pizza margherita con aggiunta di kiwi",
+        "prezzo":7.00
+    },
+    {
+        "id": 2,
+        "name":"Pizza Halloween",
+        "ingredienti":["Mozzarella","Pomodoro","Lombrichi Gommosi"],
+        "descrizione":"Semplice pizza margherita con aggiunta di lombrichi gommosi e altre caramelle",
+        "prezzo":7.00
+    },
+    {
+        "id": 3,
+        "name":"Pizza Spagna",
+        "ingredienti":["Mozzarella","Pomodoro","Paella"],
+        "descrizione":"Semplice pizza margherita con aggiunta di Paella, piatto tipico spagnolo",
+        "prezzo":10.00
+    },
+    {
+        "id": 4,
+        "name":"Pizza Wurstel 2.0",
+        "ingredienti":["Mozzarella","Pomodoro","Wurstel"],
+        "descrizione":"Semplice pizza con wurstel ma essi sono posizionati interi sopra la pizza",
+        "prezzo":7.00
+    },
+    {
+        "id": 5,
+        "name":"Pizza Molgora",
+        "ingredienti":["Mozzarella","Pomodoro","Salsa BBQ"],
+        "descrizione":"Semplice pizza margherita con di una funzione disegnata su di essa con la salsa BBQ",
+        "prezzo":12.00
+    },
+    {
+        "id": 6,
+        "name":"Pizza Fabiasky",
+        "ingredienti":["Mozzarella","Pomodoro","Fragole", "Panna"],
+        "descrizione":"Semplice pizza margherita divisa a metà: sopra la panna montata, sotto le fragola in modo da formare la bandiera della Polonia",
+        "prezzo":8.00
+    }
+]

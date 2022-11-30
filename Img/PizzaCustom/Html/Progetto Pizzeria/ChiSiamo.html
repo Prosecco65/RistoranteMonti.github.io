@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ristorante Monti-Chi Siamo?</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="./Css/css.css">
+    
+</head>
+
+<body onload="Load()">
+    <nav class="navbar navbar-expand-xl bg-dark navbar-dark fixed-top">
+        <div class="container-fluid">
+            <img src="./Img/icona.png" alt="Logo Ristorante">
+            <a class="navbar-brand" href="/Index.html">RISTORANTE MONTI</a>
+            <button class="navbar-toggler collapsed d-flex d-lg-none flex-column justify-content-around" type="button"
+                data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+                <span class="toggler-icon top-bar"></span>
+                <span class="toggler-icon middle-bar"></span>
+                <span class="toggler-icon bottom-bar"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="/ChiSiamo.html">Chi Siamo?</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/Contatti.html">Contatti</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Menù</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="/PizzeOrdinarie.html">Pizze Ordinarie</a></li>
+                            <li><a class="dropdown-item" href="/PizzaSpeciali.html">Pizze Speciali</a></li>
+                            <li><a class="dropdown-item" href="/PizzeCustom.html">Pizze Custom</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div style="padding:20px; margin-top:100px;" class="box1 container">
+        <p> <b>Ristorante Monti</b> è una catena di pizzerie presente in tutto il nord Italia che con anni di esperienza riesce
+            ancora a soddisfare e a
+            sfamare migliaia di famiglie.
+        </p>
+        <p>Il primo ristorante aprì nel 1922 e da allora continuiamo a sfornare deliziose pizze per voi.</p>
+        <img class="container rounded" src="/Img/ChiSiamo/Pizza.jpg" alt="Pizza" width="500px">
+    </div>
+
+    <div class="container mt-3 centraelementi text-center">
+        <br>
+        <h3>I nostri ristoranti:</h3>
+        <img src="/Img/ChiSiamo/Mappa.png" alt="MappaRistoranti" usemap="#workmap" width="500px" class="rounded">
+
+        <map name="workmap">
+            <area shape="rect" coords="53,183,75,210" alt="Piemonte" target="_blank"
+                href="https://www.google.it/maps/place/Ristorante+Monti/@45.0708288,7.6517523,17.5z/data=!4m5!3m4!1s0x47886ce2cfdd4f15:0xc097d49f2b4f0b02!8m2!3d45.0706542!4d7.6518768">
+            <area shape="rect" coords="187,114,209,142" alt="Lombardia" target="_blank"
+                href="https://www.google.it/maps/place/Ristorante+Pizzeria+Mare+%26+Monti/@45.4945826,9.4103232,16.75z/data=!4m5!3m4!1s0x4786ca5cb277482b:0x3f1302343d6a00ba!8m2!3d45.4944533!4d9.4128007">
+            <area shape="rect" coords="305,200,327,229" alt="Emilia-Romagna" target="_blank" 
+                href="https://www.google.it/maps/place/Trattoria+Monte+Donato/@44.4617023,11.3548759,17z/data=!3m1!4b1!4m8!3m7!1s0x477e2acd80759895:0xb0a2e69f6a570f15!5m2!4m1!1i2!8m2!3d44.4616985!4d11.3570646">
+            <area shape="rect" coords="361,133,380,160" alt="Veneto" target="_blank"
+                href="https://www.google.it/maps/place/Ristorante+%E2%80%9CAl+Monte%E2%80%9D/@45.1037785,12.2539366,16.5z/data=!4m5!3m4!1s0x477e9b25085eb18f:0x17e2ad6bbbc944ff!8m2!3d45.1032242!4d12.2564446">
+        </map>
+    </div>
+    <br>
+    <hr>
+    <br>
+    <!--Recensioni inizio-->
+    <section class="testimonials ">
+        <div>
+            <h3>Ecco cosa dicono i nostri clienti</h3>
+        </div>
+
+        <div class="row">
+            <div class="col-md-6">
+                <div class="testimonials-box-container">
+                    <div class="testimonials-box rounded">
+                        <div class="box-top">
+                            <div class="profile">
+                                <div class="immagineProfilo">
+                                    <img src="/Img/ChiSiamo/ImgProf/Prof1.jpg" alt="immagine di Profilo 1">
+                                </div>
+                                <div class="name-user">
+                                    <strong class="nomi"></strong>
+                                    <span class="insta"></span>
+                                </div>
+                            </div>
+                            <div class="rewies">
+                                <i><img src="/Img/ChiSiamo/ImgProf/stellaPiena.png" alt="stellaPiena"></i>
+                                <i><img src="/Img/ChiSiamo/ImgProf/stellaPiena.png" alt="stellaPiena"></i>
+                                <i><img src="/Img/ChiSiamo/ImgProf/stellaPiena.png" alt="stellaPiena"></i>
+                                <i><img src="/Img/ChiSiamo/ImgProf/stellaPiena.png" alt="stellaPiena"></i>
+                                <i><img src="/Img/ChiSiamo/ImgProf/stellaVuota.png" alt="stellaVuota"></i>
+                            </div>
+                        </div>
+                        <div class="Recensioni-Scritto">
+                            <i class="commento"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="testimonials-box-container">
+                    <div class="testimonials-box rounded ">
+                        <div class="box-top">
+                            <div class="profile">
+                                <div class="immagineProfilo">
+                                    <img src="/Img/ChiSiamo/ImgProf/Prof2.jpg" alt="immagine di Profilo 2">
+                                </div>
+                                <div class="name-user">
+                                    <strong class="nomi"></strong>
+                                    <span class="insta"></span>
+                                </div>
+                            </div>
+                            <div class="rewies">
+                                <i><img src="/Img/ChiSiamo/ImgProf/stellaPiena.png" alt="stellaPiena"></i>
+                                <i><img src="/Img/ChiSiamo/ImgProf/stellaPiena.png" alt="stellaPiena"></i>
+                                <i><img src="/Img/ChiSiamo/ImgProf/stellaPiena.png" alt="stellaPiena"></i>
+                                <i><img src="/Img/ChiSiamo/ImgProf/stellaVuota.png" alt="stellaVuota"></i>
+                                <i><img src="/Img/ChiSiamo/ImgProf/stellaVuota.png" alt="stellaVuota"></i>
+                            </div>
+                        </div>
+                        <div class="Recensioni-Scritto">
+                            <i class="commento"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Recensioni fine-->
+
+    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 border-top mt-5">
+        <div class="col-md-4 d-flex align-items-center">
+            <img class="ms-3 mb-3 mb-md-0 text-muted" src="./Img/icona.png" alt="Logo" style="width: 45px;">
+            <span class="ms-4 mb-3 mb-md-0 text-muted">Ristorante Monti© 2022 Company, Inc</span>
+        </div>
+
+        <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+            <li class="ms-3"><a href="https://it-it.facebook.com/" target="_blank"> <img src="./Img/Social/Facebook.png" alt="FacebookLogo"> </a></li>
+            <li class="ms-3"><a href="https://www.instagram.com/" target="_blank"><img src="./Img/Social/Instagram.png" alt="InstagramLogo"></a></li>
+            <li class="ms-3"><a href="https://twitter.com/" target="_blank"><img src="./Img/Social/Twitter.png" alt="TwitterLogo"></a></li>
+        </ul>
+    </footer>
+</body>
+<script src="/Script/Rewies.js"></script>
+</html>

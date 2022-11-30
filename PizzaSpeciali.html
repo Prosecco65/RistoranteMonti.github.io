@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ristorante Monti-PizzeSpeciali</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="./Css/css.css">
+</head>
+
+<body onload="Load2()">
+    <nav class="navbar navbar-expand-xl bg-dark navbar-dark fixed-top">
+        <div class="container-fluid">
+            <img src="./Img/icona.png" alt="Logo Ristorante">
+            <a class="navbar-brand" href="/Index.html">RISTORANTE MONTI</a>
+            <button class="navbar-toggler collapsed d-flex d-lg-none flex-column justify-content-around" type="button"
+                data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+                <span class="toggler-icon top-bar"></span>
+                <span class="toggler-icon middle-bar"></span>
+                <span class="toggler-icon bottom-bar"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="/ChiSiamo.html">Chi Siamo?</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/Contatti.html">Contatti</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Menù</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="/PizzeOrdinarie.html">Pizze Ordinarie</a></li>
+                            <li><a class="dropdown-item" href="/PizzaSpeciali.html">Pizze Speciali</a></li>
+                            <li><a class="dropdown-item" href="/PizzeCustom.html">Pizze Custom</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <h3 class="container text-center text-decoration-underline" style="margin-top:100px;">Pizze Speciali</h3>
+    <br>
+    <p class="text-center">Qui da <b>Ristorante Monti</b> puoi ordinare anche pizze speciali create appositamente dai
+        nostri chef stellati;
+        prova la pizza kiwi, la pizza Spagna e altre leccornie nei nostri negozi. <br>
+        Qui sotto la lista completa.
+    </p>
+    <br>
+    <hr>
+
+    <div class="row d-flex justify-content-center">
+        <div class="col-lg-4 mb-4 d-flex justify-content-center">
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front rounded">
+                        <img src="/Img/Card/card2.jpg" alt="Avatar" style="width:300px;height:250px;" class="rounded">
+                        <h2 class="name1"></h2>
+                    </div>
+                    <div class="flip-card-back rounded">
+                        <div class="wrapO ">
+                            <b>Ingredienti: &nbsp;</b>
+                            <i class="ingredienti"></i>
+                        </div>
+                        <div class="wrapO">
+                            <b>Descrizione: &nbsp;</b>
+                            <i class="descrizione"></i>
+                        </div>
+                        <div class="wrapO">
+                           <b>Prezzo: &nbsp;</b> 
+                           <i class="prezzo"></i>
+                           <i>€</i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-lg-4 mb-4 d-flex justify-content-center">
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front rounded">
+                        <img src="/Img/Pizze Speciali/PizzaHalloween.jpg" alt="Avatar" style="width:300px;height:250px;" class="rounded">
+                        <h2 class="name1"></h2>
+                    </div>
+                    <div class="flip-card-back rounded">
+                        <div class="wrapO ">
+                            <b>Ingredienti: &nbsp;</b>
+                            <i class="ingredienti"></i>
+                        </div>
+                        <div class="wrapO">
+                            <b>Descrizione: &nbsp;</b>
+                            <i class="descrizione"></i>
+                        </div>
+                        <div class="wrapO">
+                           <b>Prezzo: &nbsp;</b> 
+                           <i class="prezzo"></i>
+                           <i>€</i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-lg-4 mb-4 d-flex justify-content-center">
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front rounded">
+                        <img src="/Img/Pizze Speciali/PizzaSpagna.jpg" alt="Avatar" style="width:300px;height:250px;" class="rounded">
+                        <h2 class="name1"></h2>
+                    </div>
+                    <div class="flip-card-back rounded">
+                        <div class="wrapO ">
+                            <b>Ingredienti: &nbsp;</b>
+                            <i class="ingredienti"></i>
+                        </div>
+                        <div class="wrapO">
+                            <b>Descrizione: &nbsp;</b>
+                            <i class="descrizione"></i>
+                        </div>
+                        <div class="wrapO">
+                           <b>Prezzo: &nbsp;</b> 
+                           <i class="prezzo"></i>
+                           <i>€</i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-lg-4 mb-4 d-flex justify-content-center">
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front rounded">
+                        <img src="/Img/Pizze Speciali/PizzaWurstel2.jpg" alt="Avatar" style="width:300px;height:250px;" class="rounded">
+                        <h2 class="name1"></h2>
+                    </div>
+                    <div class="flip-card-back rounded">
+                        <div class="wrapO ">
+                            <b>Ingredienti: &nbsp;</b>
+                            <i class="ingredienti"></i>
+                        </div>
+                        <div class="wrapO">
+                            <b>Descrizione: &nbsp;</b>
+                            <i class="descrizione"></i>
+                        </div>
+                        <div class="wrapO">
+                           <b>Prezzo: &nbsp;</b> 
+                           <i class="prezzo"></i>
+                           <i>€</i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-lg-4 mb-4 d-flex justify-content-center">
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front rounded">
+                        <img src="/Img/Pizze Speciali/PizzaFunzione.jpg" alt="Avatar" style="width:300px;height:250px;" class="rounded">
+                        <h2 class="name1"></h2>
+                    </div>
+                    <div class="flip-card-back rounded">
+                        <div class="wrapO ">
+                            <b>Ingredienti: &nbsp;</b>
+                            <i class="ingredienti"></i>
+                        </div>
+                        <div class="wrapO">
+                            <b>Descrizione: &nbsp;</b>
+                            <i class="descrizione"></i>
+                        </div>
+                        <div class="wrapO">
+                           <b>Prezzo: &nbsp;</b> 
+                           <i class="prezzo"></i>
+                           <i>€</i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-lg-4 mb-4 d-flex justify-content-center">
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front rounded">
+                        <img src="/Img/Pizze Speciali/PizzaFabiansky.jpg" alt="Avatar" style="width:300px;height:250px;" class="rounded">
+                        <h2 class="name1"></h2>
+                    </div>
+                    <div class="flip-card-back rounded">
+                        <div class="wrapO ">
+                            <b>Ingredienti: &nbsp;</b>
+                            <i class="ingredienti"></i>
+                        </div>
+                        <div class="wrapO">
+                            <b>Descrizione: &nbsp;</b>
+                            <i class="descrizione"></i>
+                        </div>
+                        <div class="wrapO">
+                           <b>Prezzo: &nbsp;</b> 
+                           <i class="prezzo"></i>
+                           <i>€</i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+   </div>
+
+        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 border-top mt-5">
+            <div class="col-md-4 d-flex align-items-center">
+                <img class="ms-3 mb-3 mb-md-0 text-muted" src="./Img/icona.png" alt="Logo" style="width: 45px;">
+                <span class="ms-4 mb-3 mb-md-0 text-muted">Ristorante Monti© 2022 Company, Inc</span>
+            </div>
+
+            <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+                <li class="ms-3"><a href="https://it-it.facebook.com/" target="_blank"> <img
+                            src="./Img/Social/Facebook.png" alt="FacebookLogo"> </a></li>
+                <li class="ms-3"><a href="https://www.instagram.com/" target="_blank"><img
+                            src="./Img/Social/Instagram.png" alt="InstagramLogo"></a></li>
+                <li class="ms-3"><a href="https://twitter.com/" target="_blank"><img src="./Img/Social/Twitter.png"
+                            alt="TwitterLogo"></a></li>
+            </ul>
+        </footer>
+</body>
+<script src="/Script/CardFlip.js"></script>
+</html>
