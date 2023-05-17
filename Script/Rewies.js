@@ -1,6 +1,6 @@
 async function Load(){
     
-    const response = await fetch("/Json/Reviews.json")
+    const response = await fetch("./Json/Reviews.json")
     const text = await response.text()
     var file = JSON.parse(text);
 

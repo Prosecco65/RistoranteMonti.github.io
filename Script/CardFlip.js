@@ -1,6 +1,6 @@
 async function Load2(){
     
-    const response = await fetch("/Json/PizzeSpeciali.json")
+    const response = await fetch("./Json/PizzeSpeciali.json")
     const text = await response.text()
     var file = JSON.parse(text);
 

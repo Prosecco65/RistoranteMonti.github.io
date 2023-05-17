@@ -5,7 +5,7 @@ function pizza(inza){
 
 async function Load3(){
     
-    const response = await fetch("/Json/PizzeOrd.json")
+    const response = await fetch("./Json/PizzeOrd.json")
     const text = await response.text()
     var file = JSON.parse(text);
 
